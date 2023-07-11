@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 /* shared styles over the website */
 body {
     font-family: 'Lato', sans-serif;
@@ -9,11 +13,10 @@ body {
     border-radius: 8px;
     background: #E55473;
     border: 0;
-    font-size: 20px;
-    /* font-style: normal; */
+    font-size: 12px;
     font-weight: 700;
     color: #FFFFFF;
-    padding: 20px 43px;
+    padding: 12px 26px;
 }
 
 .welcome-page {
@@ -21,7 +24,7 @@ body {
 }
 
 .banner {
-    padding: 30px 30px 0px 150px;
+    padding: 50px 20px 20px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,11 +36,11 @@ body {
 
 .banner-title {
     color: #272727;
-    font-size: 65px;
+    font-size: 45px;
     font-weight: 800;
     /* max-width: 708px; */
-    margin-top: 0;
-    margin-bottom: 20px;
+    /* margin-top: 0; */
+    /* margin-bottom: 20px; */
 
     display: flex;
     width: 708px;
@@ -89,18 +92,20 @@ body {
     background: #A7216226;
     border-radius: 300px 300px 0px 0px;
 }
+
 .featuredimg-2 {
 
     background: #0597A026;
     border-radius: 300px 300px 0px 0px;
 }
+
 .featuredimg-3 {
 
     background: #477D1126;
     border-radius: 300px 300px 0px 0px;
 }
 
-.commitment{
+.commitment {
     background: #2727270D;
     display: flex;
     justify-content: space-between;
@@ -112,7 +117,7 @@ body {
 
 /* hot Deals Section */
 
-.hot_deals{
+.hot_deals {
     background: #E554730D;
 }
 
@@ -174,47 +179,27 @@ body {
     text-align: center;
 }
 
-.insta-images {
-    display: flex;
-    justify-content: space-between;
-    /* margin: 48px 240px 30px 240px; */
-}
-
-.instaimg-1 {
-
-    background: #A7216226;
-    margin-right: 24px;
-    /* border-radius: 300px 300px 0px 0px; */
-}
-.instaimg-2 {
-
-    background: #0597A026;
-    margin-right: 24px;
-    /* border-radius: 300px 300px 0px 0px; */
-}
-.instaimg-3 {
-
-    background: #477D1126;
-    margin-right: 24px;
-    /* border-radius: 300px 300px 0px 0px; */
-}
-.instaimg-4 {
-
-    background: #477D1126;
-    margin-right: 24px;
-    /* border-radius: 300px 300px 0px 0px; */
-}
-
-.regi-content{
+.insta-images{
     /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 8px;
+    width: 20px;
+    height: 120px;
+}
+
+.regi-content {
+    /* display: flex; */
+    background-repeat: no-repeat;
     background-image: url('../Flower Asset/Rectangle\ 9.png');
     align-items: center;
     text-align: center;
+    margin-top: 50px;
 }
 
-.footer{
+.footer {
     align-items: center;
-    background-color:#111010;
+    background-color: #111010;
     color: #FFFFFF;
     text-align: center;
 }
