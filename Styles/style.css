@@ -204,3 +204,15 @@ body {
     /* border-radius: 300px 300px 0px 0px; */
 }
 
+.regi-content{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    align-items: center;
+    background-color:#111010;
+    color: #FFFFFF;
+    text-align: center;
+}
