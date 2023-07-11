@@ -112,29 +112,32 @@ body {
     justify-content: space-between;
     border-radius: 8px;
     margin: 60px 140px;
-    padding: 50px 10px;
+    padding: 50px 160px;
+}
+
+.commitment p{
+    text-align: center;
+    /* padding-left: 160px; */
 }
 
 .commim1{
 
-    padding-left: 160px;
-    width: 70px;
-    height: 70px;
+   margin-left: 30%;
 }
 
-.commim2{
+/* .commim2{
     
-    /* padding: 0px 45px; */
+    padding: 0px 45px;
     width: 70px;
     height: 70px;
-}
+} */
 
-.commim3{
+/* .commim3{
 
     padding-right: 160px;
     width: 70px;
     height: 70px;
-}
+} */
 
 /* hot Deals Section */
 
@@ -191,7 +194,7 @@ body {
 /* Instagram section */
 
 .insta-page {
-    /* height: 100px; */
+    /* background-color: gray; */
 }
 
 .insta-text {
@@ -214,12 +217,17 @@ body {
 
 .insta-images {
 
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 3px 3px;
-    height: auto;
-    width: auto;
+    margin: 0px 140px;
+}
+
+.insta-images img{
+    height: 300px;
+    object-fit: contain;
+
+
 }
 
 /* Registration Section */
