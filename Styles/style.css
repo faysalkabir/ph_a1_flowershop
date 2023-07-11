@@ -17,7 +17,7 @@ body {
 }
 
 .welcome-page {
-    background: #FCEEF1
+    background: #FCEEF1;
 }
 
 .banner {
@@ -64,6 +64,8 @@ body {
     height: 600px;
 }
 
+/* Featured Page styles */
+
 .featured-page {
     align-items: center;
     margin-top: 50px;
@@ -95,5 +97,110 @@ body {
 
     background: #477D1126;
     border-radius: 300px 300px 0px 0px;
+}
+
+.commitment{
+    background: #2727270D;
+    display: flex;
+    justify-content: space-between;
+    margin: 128px 240px 30px 240px;
+    /* width: 720px; */
+    /* height: 320px; */
+    border-radius: 8px;
+}
+
+/* hot Deals Section */
+
+.hot_deals{
+    background: #E554730D;
+}
+
+.hd_banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hdbanner-content {
+    max-width: 708px;
+}
+
+.hdbanner-title {
+    color: #272727;
+    font-size: 65px;
+    font-weight: 800;
+    /* max-width: 708px; */
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.hdbanner-description {
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.hd-picture {
+    width: 535px;
+    height: 600px;
+}
+
+
+/* Instagram section */
+
+.insta-page {
+    align-items: center;
+    margin-top: 50px;
+}
+
+.insta-text {
+
+    align-items: center;
+    text-align: center;
+}
+
+.insta-images {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 48px 240px 30px 240px; */
+}
+
+.instaimg-1 {
+
+    background: #A7216226;
+    margin-right: 24px;
+    /* border-radius: 300px 300px 0px 0px; */
+}
+.instaimg-2 {
+
+    background: #0597A026;
+    margin-right: 24px;
+    /* border-radius: 300px 300px 0px 0px; */
+}
+.instaimg-3 {
+
+    background: #477D1126;
+    margin-right: 24px;
+    /* border-radius: 300px 300px 0px 0px; */
+}
+.instaimg-4 {
+
+    background: #477D1126;
+    margin-right: 24px;
+    /* border-radius: 300px 300px 0px 0px; */
 }
 
