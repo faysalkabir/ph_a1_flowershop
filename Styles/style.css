@@ -74,12 +74,13 @@ body {
 .featured-images {
     display: flex;
     justify-content: center;
-    margin: 48px 240px 30px 140px;
+    /* margin: 0 100px; */
 }
 
 .featured-images p{
     text-align: center;
     text-decoration: underline;
+    font-weight: 700;
 }
 
 .featuredimg-1 {
@@ -97,12 +98,19 @@ body {
     background: #0597A026;
     border-radius: 300px 300px 0px 0px;
     margin-right: 20px;
+    object-fit: contain;
+    height: 300px;
+    padding: 50px 20px 0 20px ;
 }
 
 .featuredimg-3 {
 
     background: #477D1126;
     border-radius: 300px 300px 0px 0px;
+    object-fit: contain;
+    margin-right: 20px;
+    height: 300px;
+    padding: 50px 50px 0 50px ;
 }
 
 .commitment {
@@ -118,6 +126,9 @@ body {
 .commitment p{
     text-align: center;
     /* padding-left: 160px; */
+    color: #272727CC;
+    opacity: 80%;
+    font-weight: 600;
 }
 
 .commim1{
@@ -125,19 +136,15 @@ body {
    margin-left: 30%;
 }
 
-/* .commim2{
+.commim2{
     
-    padding: 0px 45px;
-    width: 70px;
-    height: 70px;
-} */
+    margin-left: 30%;
+}
 
-/* .commim3{
+.commim3{
 
-    padding-right: 160px;
-    width: 70px;
-    height: 70px;
-} */
+    margin-left: 30%;
+}
 
 /* hot Deals Section */
 
@@ -193,9 +200,6 @@ body {
 
 /* Instagram section */
 
-.insta-page {
-    /* background-color: gray; */
-}
 
 .insta-text {
 
@@ -204,14 +208,22 @@ body {
 }
 
 .insta-title {
-    font-size: 30px;
+    font-size: 26px;
     margin-top: 50px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 30px;
+
 }
 
 .insta-description {
+    align-items: center;
     text-align: center;
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    opacity: 80%;
+    color: #27272799;
 
 }
 
@@ -224,8 +236,9 @@ body {
 }
 
 .insta-images img{
-    height: 300px;
+    height: 290px;
     object-fit: contain;
+    /* margin: 0 10px; */
 
 
 }
