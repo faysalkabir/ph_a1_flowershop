@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
 }
 
@@ -10,13 +10,19 @@ body {
 }
 
 .btn-primary {
-    border-radius: 8px;
+    border-radius: 5px;
     background: #E55473;
     border: 0;
     font-size: 12px;
     font-weight: 700;
     color: #FFFFFF;
     padding: 12px 26px;
+    height: 40px;
+}
+
+.primary-text {
+    color: #E55473;
+
 }
 
 .welcome-page {
@@ -82,7 +88,7 @@ body {
 
 .featured-images {
     display: flex;
-    position: ;
+    /* position: absolute ; */
     justify-content: space-between;
     margin: 48px 240px 30px 240px;
 }
@@ -170,7 +176,7 @@ body {
 
 .insta-page {
     align-items: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .insta-text {
@@ -179,27 +185,83 @@ body {
     text-align: center;
 }
 
-.insta-images{
-    /* display: flex; */
-    align-items: center;
-    justify-content: space-between;
-    margin: 5px 8px;
-    width: 20px;
-    height: 120px;
-}
-
-.regi-content {
-    /* display: flex; */
-    background-repeat: no-repeat;
-    background-image: url('../Flower Asset/Rectangle\ 9.png');
-    align-items: center;
-    text-align: center;
+.insta-title {
+    font-size: 30px;
     margin-top: 50px;
 }
 
-.footer {
-    align-items: center;
-    background-color: #111010;
-    color: #FFFFFF;
+.insta-description {
     text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+
+.insta-images {
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3px 3px;
+    height: auto;
+    width: auto;
+}
+
+
+.regi-content{
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* height: 150px; */
+    padding: 200px 40px;
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0px 140px;
+    border-radius: 8px; 
+}
+
+.emailfield{
+   width: 500px;
+   height: 38px;
+   border-radius: 5px;
+   border: none;
+   margin-right: 7px;
+   text-decoration: #27272799;
+}
+.footer {
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #111010;
+    color: white;
+    padding: 7.5% 7.5%;
+}
+
+.foot-title {
+    color: #FFFFFF;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+    
+
+.footer-description {
+    
+    align-items:center;
+    color: #FFFFFFE5;
+    text-align: center;
+    font-size: 10px;
+    opacity: 90%;
+}
+
+.rights {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 20px;
+    opacity: 60%;
 }
