@@ -73,21 +73,30 @@ body {
 
 .featured-images {
     display: flex;
-    /* position: absolute ; */
-    justify-content: space-between;
-    margin: 48px 240px 30px 240px;
+    justify-content: center;
+    margin: 48px 240px 30px 140px;
+}
+
+.featured-images p{
+    text-align: center;
+    text-decoration: underline;
 }
 
 .featuredimg-1 {
 
     background: #A7216226;
     border-radius: 300px 300px 0px 0px;
+    margin-right: 20px;
+    object-fit: contain;
+    height: 300px;
+    padding: 50px 50px 0 50px ;
 }
 
 .featuredimg-2 {
 
     background: #0597A026;
     border-radius: 300px 300px 0px 0px;
+    margin-right: 20px;
 }
 
 .featuredimg-3 {
