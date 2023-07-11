@@ -79,6 +79,7 @@ body {
 
 .featured-images {
     display: flex;
+    position: ;
     justify-content: space-between;
     margin: 48px 240px 30px 240px;
 }
