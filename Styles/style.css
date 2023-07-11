@@ -71,6 +71,24 @@ body {
     text-align: center;
 }
 
+.featured-title{
+    font-size: 26px;
+    margin-top: 50px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 30px;
+}
+
+.featured-description{
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    opacity: 80%;
+    color: #27272799
+}
+
 .featured-images {
     display: flex;
     justify-content: center;
@@ -308,7 +326,7 @@ input::placeholder {
 .footer-description {
     
     align-items:center;
-    color: #FFFFFFE5;
+    color: #27272799;
     text-align: center;
     font-size: 10px;
     opacity: 80%;
