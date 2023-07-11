@@ -175,7 +175,7 @@ body {
 }
 
 .insta-images {
-    display: flexbox;
+    display: flex;
     justify-content: space-between;
     /* margin: 48px 240px 30px 240px; */
 }
