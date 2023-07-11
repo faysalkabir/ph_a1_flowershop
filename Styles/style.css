@@ -229,8 +229,14 @@ body {
    border-radius: 5px;
    border: none;
    margin-right: 7px;
-   text-decoration: #27272799;
 }
+
+input::placeholder {
+    font-size: 10px;
+    padding: 0px 0px 0px 8px;
+    opacity: 70%;
+}
+
 .footer {
 
     align-items: center;
