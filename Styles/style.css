@@ -206,8 +206,9 @@ body {
 
 .regi-content{
     /* display: flex; */
+    background-image: url('../Flower asset/Rectangle\ 9.png');
     align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 .footer{
